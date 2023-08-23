@@ -10,7 +10,7 @@ if(minutos1 < 10){
     horadodia.innerHTML = `Agora são ${horadodia1}:0${minutos1}`
 }
 
-if (horadodia1 > 12 && horadodia1 < 18) {
+if (horadodia1 >= 12 && horadodia1 < 18) {
     horadodia.innerHTML = `Agora são ${horadodia1}:${minutos1}`
     imagen.src = './/img/frases-de-boa-tarde.jpg' 
     fundo.style.background = '#a47662'
@@ -18,7 +18,7 @@ if (horadodia1 > 12 && horadodia1 < 18) {
         horadodia.innerHTML = `Agora são ${horadodia1}:0${minutos1}`
     }
 }
-else if (horadodia1 > 18 && horadodia1 < 24) {
+else if (horadodia1 >= 18 && horadodia1 < 24) {
     horadodia.innerHTML = `Agora são ${horadodia1}:${minutos1}`
     imagen.src = './/img/linda-noite-no-oceano-com-lua-cheia_104785-866.avif'
     fundo.style.background = '#494a4b'
