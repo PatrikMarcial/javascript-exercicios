@@ -1,0 +1,33 @@
+
+body {
+    background: #1eb3b9;
+    font: normal 15pt arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+main {
+    background: white;
+    border-radius: 10PX;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    align-items: center;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.368);
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
